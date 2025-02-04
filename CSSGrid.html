@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: pink;
+            border: 5px purple solid;
+            padding: 20px;
+            display: grid;
+            /*grid-template-columns: 10% auto 50%;
+            grid-template-rows:150px 200px ;*/
+            /*grid-template: 100px 200px/ 30% auto auto;
+            grid-row-gap: 20px;*/
+            grid-template: 100px 200px/ 30% auto auto;
+            grid-gap: 20px 30px;
+        }
+        .item{
+            border: 2px rgb(51, 245, 8) solid;
+            padding: 10px;
+            color: blue;
+            font-family: 'Lucida Sans','Lucida Sans Regular','Lucida Grande','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: skyblue;
+            grid-column-start: ;
+            grid-column-end: ;
+            grid-column: ;
+            grid-column-gap: ;
+        }
+        #i3{
+            /*grid-row-start: 2;
+            grid-row-end: 5;*/
+            grid-row: 2/span 3;
+        }
+        #i7{
+            grid-column:4/6 ;
+
+        }
+        #i9{
+            grid-area: 2/3/span 2/ span 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class ="item">Item1</div>
+    <div class ="item">Item2</div>
+    <div class ="item" id ="i3">Item3</div>
+    <div class ="item">Item4</div>
+    <div class ="item">Item5</div>
+    <div class ="item">Item6</div>
+    <div class ="item"id ="i7">Item7</div>
+    <div class ="item">Item8</div>
+    <div class ="item"id ="19">Item9</div>
+
+    </div>
+</body>
+</html>

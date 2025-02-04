@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            
+            text-align: center;
+            /* background-color: aqua; */
+        }
+
+
+        /* body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(90deg, red, orange, aqua);
+      background-size: 300% 300%;
+      animation: rgb-animation 5s infinite;
+      color: white;
+    } */
+
+    @keyframes rgb-animation {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+
+
+
+
+    }
+    </style>
+</head>
+<body>
+    <form method="post">
+
+        <label for="name">Enter Name: </label>
+        <input type="text" name="name1" id="name" size="" maxlength="5" placeholder="Enter your first name" value="abc" required>
+
+        <br><br><label for="pass"  >Enter Password</label>
+        <input type="password" name="pass1" id="pass" size="" maxlength="8" required>
+<br><br>
+        <label for="mail">Enter E-mail</label>
+        <input type="email" name="mail1" id="mail" size="" required>
+
+<br><br>
+
+<label for="Feedback"> Enter Feedback</label>
+<textarea name="Feedback" id="Feedback" rows="3" cols="20">Positive review</textarea>
+<br><br>
+<label for="hobby">Choose your Hobby</label>
+<input type="checkbox" id="hobby" name="hobby1" value="cook" checked>cooking
+<input type="checkbox" id="hobby" name="hobby2" value="sing">singing
+<input type="checkbox" id="hobby" name="hobby3" value="dance">coding
+<br><br>
+<label for="gender">Choose Gender: </label>
+<input type="radio" id="male" name="male" checked value="male">
+<label for="male">Male</label>
+
+<input type="radio" id="female" name="male" value="female">
+<label for="female">Female</label>
+<br><br>
+<label for="states">Select state</label>
+
+<select id="states" name="states" size="" multiple>
+<option value="Punjab">Choose your state</option>
+<option value="Punjab">Punjab</option>
+<option value="Himachal">Himachal</option>
+<option value="Up">UP</option>
+<option value="assam" selected>Assam</option>
+
+
+</select>
+<br><br>
+<label for="files1">Choose file</label>
+<input type="file" id="files1" name="files1">
+
+
+<br><br><input type="submit" name="submitform" id="submitform" value="Submit form">
+<input type="reset" name="resetform" id="resetform" value="Reset form">
+<input type="image" name="imgbtn" id="imgbtn" src="https://www.downloadclipart.net/large/18461-red-submit-button-design.png" width="100" height="70">
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+    
+</body>
+</html>

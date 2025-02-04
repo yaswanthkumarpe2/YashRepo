@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+/* TYPE SELECTOR */
+h1{
+    color: black;
+}
+    h3{
+        color: red;
+        background-color: yellow;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+    }
+    /* ATTRIBUTE SELECTOR */
+a[href="https://ums.lpu.in/lpuums/LoginNew.aspx"]{
+   color: green;
+   background-color: red; 
+}
+
+/*id selector*/
+#para2{
+    
+    background-color: aquamarine;
+}
+/* CLASS SELECTTR */
+.c1{
+    color: brown;
+
+}
+/*Pseudo selector -: hover ,mouse actions,*/
+
+h3:hover{
+    color:greenyellow;
+    background-color: yellow;
+
+}
+
+/*COMBINATOR SELECTOR*/
+.d1 p{
+    color: brown;
+}
+
+/* GROUPING SELECTOR */
+h5,h6{
+    color: blue;
+    background-color: yellow;
+}
+
+
+
+</style>
+<link rel="stylesheet" href="basic.css">
+
+
+
+
+
+
+</head>
+<body>
+    <h1 >This is frontend Class</h1>
+    <h2 >This is frontend Class</h2>
+    <h3>This is frontend Class</h3>
+    <h4 class="c1">This is frontend Class</h4>
+    <h5 class="c1">This is frontend Class</h5>
+    <h6 class="c1">This is frontend Class</h6>
+
+    
+
+
+
+      <!--
+    TYPES OF SELECTOR
+    1.TYPE SELECTOR
+    2.ATTRIBUTE SELECTOR
+    3.CLASS SELECTOR
+    4.ID SELECTOR
+    5. UNIVERSAL SELECTOR 
+    6. PSEUDO SELECTOR
+    7. COMBINATOR SELECTOR
+    
+
+    
+      -->  
+
+      <p id="para1">PARA1</p>
+      <p id="para2">PARA2</p>
+
+      <a href="https://www.google.co.in/">VISIT GOOGLE</a><br><br>
+      <a href="https://ums.lpu.in/lpuums/LoginNew.aspx">UMS LOGIN</a>
+
+      <div class="d1">
+        <p>
+            this is insive the div element
+        </p>
+    </div>
+    <p>
+        Ourside of DIV
+    </p>
+
+
+</body>
+</html>
